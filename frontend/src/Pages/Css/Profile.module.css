@@ -1,0 +1,27 @@
+.profile{
+    padding: 5%;
+}
+.profile>h1{
+    font-size: 25px;
+
+}
+.profile>p{
+    font-size: 20px;
+}
+
+.signup{
+    text-align: center;
+    padding: 5%;
+}
+.signup>img{
+    height: 300px;
+    margin: auto;
+}
+.signup>h1{
+    font-size: 25px;
+}
+.signup>p{
+    font-size: 18px;
+}
+
+
