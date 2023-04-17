@@ -1,4 +1,13 @@
-import { AlertDialog, AlertDialogOverlay, Box, Image, Spinner, Text, useDisclosure, useToast } from "@chakra-ui/react";
+import {
+  AlertDialog,
+  AlertDialogOverlay,
+  Box,
+  Image,
+  Spinner,
+  Text,
+  useDisclosure,
+  useToast,
+} from "@chakra-ui/react";
 import React from "react";
 import { useNavigate } from "react-router-dom";
 import { AiOutlineHeart, AiFillHeart } from "react-icons/ai";
@@ -11,7 +20,7 @@ const ProductItem = ({ item }) => {
   const [toggle, setToggle] = useState(false);
   const { userData, isAuth } = useSelector((store) => store.AuthReducer);
   const toast = useToast();
-  
+
   const { isOpen, onOpen, onClose } = useDisclosure();
   const cancelRef = React.useRef();
 
@@ -25,7 +34,7 @@ const ProductItem = ({ item }) => {
       onOpen();
       axios
         .post(
-          "https://fashionclub.onrender.com/wishlist/add",
+          "https://jolly-rose-shoe.cyclic.app/wishlist/add",
           { productId: item._id },
           {
             headers: {
@@ -35,7 +44,7 @@ const ProductItem = ({ item }) => {
         )
         .then((res) => {
           // console.log(res);
-          onClose()
+          onClose();
           toast({
             title: "Product added to wishlist success full.",
             description: "We've added your product.",
@@ -46,7 +55,7 @@ const ProductItem = ({ item }) => {
           });
         })
         .catch((er) => {
-          onClose()
+          onClose();
           // console.log(er);
           toast({
             title: "Product is already present.",
@@ -57,8 +66,7 @@ const ProductItem = ({ item }) => {
             position: "top",
           });
         });
-    }
-    else{
+    } else {
       toast({
         title: "Login in first",
         description: "Failed to add wishlist",

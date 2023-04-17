@@ -50,12 +50,12 @@ function Signup({ buttonName }) {
   const dispatch = useDispatch();
   const { isLoading } = useSelector((store) => store.AuthReducer);
   const navigate = useNavigate();
-  const toast=useToast();
+  const toast = useToast();
   const handelSignin = async () => {
     const payload = { email, password };
     dispatch(signin_request());
     return await axios
-      .post("https://fashionclub.onrender.com/user/login", payload)
+      .post("https://jolly-rose-shoe.cyclic.app/user/login", payload)
       .then((res) => {
         dispatch(signin_success(res.data));
         console.log(res.data);
@@ -80,7 +80,7 @@ function Signup({ buttonName }) {
     const payload = { email, password, name };
     dispatch(signup_request());
     return await axios
-      .post("https://fashionclub.onrender.com/user/signup", payload)
+      .post("https://jolly-rose-shoe.cyclic.app/user/signup", payload)
       .then((res) => {
         dispatch(signup_success());
         setIsError(false);

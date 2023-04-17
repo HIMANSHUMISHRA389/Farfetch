@@ -5,7 +5,7 @@ import {
 } from "./actionType";
 import axios from "axios";
 
-export const url = "https://fashionclub.onrender.com/product";
+export const url = "https://jolly-rose-shoe.cyclic.app/product";
 
 export const getData = (category, subCategory, queryParams) => (dispatch) => {
   dispatch({ type: GET_DATA_REQUEST });

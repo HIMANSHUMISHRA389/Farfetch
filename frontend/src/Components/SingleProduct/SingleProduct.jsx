@@ -60,7 +60,7 @@ const SingleProduct = () => {
       onOpen();
       axios
         .post(
-          "https://fashionclub.onrender.com/cart/add",
+          "https://jolly-rose-shoe.cyclic.app/cart/add",
           { productId: productId },
           {
             headers: {
@@ -109,7 +109,7 @@ const SingleProduct = () => {
       onOpen();
       axios
         .post(
-          "https://fashionclub.onrender.com/wishlist/add",
+          "https://jolly-rose-shoe.cyclic.app/wishlist/add",
           { productId: productId },
           {
             headers: {
@@ -157,7 +157,7 @@ const SingleProduct = () => {
 
   useEffect(() => {
     axios
-      .get(`https://fashionclub.onrender.com/product/${productId}`)
+      .get(`https://jolly-rose-shoe.cyclic.app/product/${productId}`)
       .then((res) => {
         setItem(res.data.product);
       })
