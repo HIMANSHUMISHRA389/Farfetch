@@ -1,6 +1,6 @@
-# human-bee-8845
+# Farfetch
 
-Fashion Club is an E-Commerce website anyone can buy products easily from our website.
+Farfrtch is an E-Commerce website anyone can buy products easily from our website.
 
 # Farfetch.com-Clone
 
@@ -31,25 +31,17 @@ Drawer using Chakra UI
 Drop-down using Chakra UI
 
 Collaborators
-Mohd Javed;
+Manish Verma;
 
-gitHub:- https://github.com/MJaved9
+gitHub:- https://github.com/manish9427
 
-Raj Kumar Mahto
+Himanshu Mishra
 
-gitHub:- https://github.com/Raj4709267
+gitHub:- https://github.com/HIMANSHUMISHRA389
 
-Md Irfan
+Saurabh Pratap Singh
 
-gitHub:- https://github.com/Md-Irfan-FullStackDeveloper
-
-Tabrez Alam
-
-gitHub:-https://github.com/TabrezAlam98
-
-Rahul Nishad
-
-gitHub:-https://github.com/Rahul5303
+gitHub:- https://github.com/SaurabhPratapSingh399
 
 ## Screenshots
 
