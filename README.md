@@ -1,6 +1,6 @@
 # Farfetch
 
-Farfrtch is an E-Commerce website anyone can buy products easily from our website.
+Farfetch is an E-Commerce website anyone can buy products easily from our website.
 
 # Farfetch.com-Clone
 
@@ -22,7 +22,7 @@ Have a look ⬇️
 
 ## Live Link
 
-- [Deploy_Link](https://fashionclub-three.vercel.app/)
+- [Deploy_Link](https://farfetchclone.netlify.app/)
 
 ## Features
 
