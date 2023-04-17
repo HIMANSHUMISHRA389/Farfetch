@@ -12,27 +12,32 @@ Have a look ⬇️
 
 ## Tech Stack
 
-NodeJs, React ,Redux,Mongodb,Express,ChakarUI
-
-**Deploying:** Vercel
+- NodeJs
+- React
+- Redux
+- Mongodb
+- Express
+- ChakarUI
+  **Deploying:** Vercel
 
 ## Live Link
 
 - [Deploy_Link](https://fashionclub-three.vercel.app/)
 
-Features
-Responsiveness using Chakra UI
-list products
-Sign up Singn in
-Able to Book products
-Carousal Effect
-Tabs using Chakra UI
-Drawer using Chakra UI
-Drop-down using Chakra UI
+## Features
+
+- Responsiveness using Chakra UI
+- list products
+- Sign up Singn in
+- Able to Book products
+- Carousal Effect
+- Tabs using Chakra UI
+- Drawer using Chakra UI
+- Drop-down using Chakra UI
 
 ## Collaborators
 
-Manish Verma;
+Manish Verma
 
 gitHub:- https://github.com/manish9427
 
