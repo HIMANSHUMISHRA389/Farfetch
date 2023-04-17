@@ -46,6 +46,6 @@ gitHub:- https://github.com/SaurabhPratapSingh399
 
 ## Screenshots
 
-![Screenshot (10313)](https://user-images.githubusercontent.com/107556633/232494079-28fab61d-824f-4db2-bb0a-bba102da93e3.png)
+![Screenshot (10314)](https://user-images.githubusercontent.com/107556633/232496669-a41100f7-8031-4196-bae9-82af87bd4d97.png)
 
 ## THANK YOU ❤️
