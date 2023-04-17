@@ -53,7 +53,7 @@ export const CartPage = () => {
     onOpen();
     console.log(id);
     return axios
-      .delete(`https://fashionclub.onrender.com/cart/delete/${id}`, {
+      .delete(`https://jolly-rose-shoe.cyclic.app/cart/delete/${id}`, {
         headers: {
           authorization: `bearer ${token}`,
         },
@@ -79,9 +79,9 @@ export const CartPage = () => {
   };
 
   function getCart() {
-    setEmpty(false)
+    setEmpty(false);
     return axios
-      .get("https://fashionclub.onrender.com/cart/get", {
+      .get("https://jolly-rose-shoe.cyclic.app/cart/get", {
         headers: {
           authorization: `bearer ${token}`,
         },
@@ -89,7 +89,7 @@ export const CartPage = () => {
       .then((res) => {
         dispatch(addToCart(res.data));
         setIsLoading(false);
-        setEmpty(true)
+        setEmpty(true);
       })
       .catch((err) => {
         setIsLoading(false);
@@ -125,7 +125,9 @@ export const CartPage = () => {
                     <div>
                       <h3 className={styles.headerName}>{data.name}</h3>
                       <h3 className={styles}>{data.title}</h3>
-                      <h3 className={styles.farfetchId}>{`FARFETCH ID: ${data._id}`}</h3>
+                      <h3
+                        className={styles.farfetchId}
+                      >{`FARFETCH ID: ${data._id}`}</h3>
                     </div>
 
                     {/* <div>Exclusive</div> */}
@@ -133,14 +135,15 @@ export const CartPage = () => {
 
                     <div className={styles.tutor}>
                       <h3 className={styles}>$ {data.prize}</h3>
-                      <div><p>(Import duties included)</p></div>
+                      <div>
+                        <p>(Import duties included)</p>
+                      </div>
                     </div>
                     <div>
-                      
                       <p className={styles}>Size: {"M"}</p>
-                      <div >
+                      <div>
                         <div className={styles.quantity}>
-                        Quantity
+                          Quantity
                           <select>
                             <option value={1}>1</option>
                             <option value={2}>2</option>
@@ -180,14 +183,19 @@ export const CartPage = () => {
             {cartItems.length == 0 && empty && "Your Bag is empty"}
           </Text>
           {cartItems.length == 0 && empty && (
-        <Img
-          margin={"auto"}
-          height="200px"
-          src="https://media.istockphoto.com/id/861576608/vector/empty-shopping-bag-icon-online-business-vector-icon-template.jpg?s=612x612&w=0&k=20&c=I7MbHHcjhRH4Dy0NVpf4ZN4gn8FVDnwn99YdRW2x5k0="
-          alt="https://media.istockphoto.com/id/861576608/vector/empty-shopping-bag-icon-online-business-vector-icon-template.jpg?s=612x612&w=0&k=20&c=I7MbHHcjhRH4Dy0NVpf4ZN4gn8FVDnwn99YdRW2x5k0="
-        />
-      )}
-          <Text margin={"auto"} marginBottom="50px" fontSize="16px" textAlign="center">
+            <Img
+              margin={"auto"}
+              height="200px"
+              src="https://media.istockphoto.com/id/861576608/vector/empty-shopping-bag-icon-online-business-vector-icon-template.jpg?s=612x612&w=0&k=20&c=I7MbHHcjhRH4Dy0NVpf4ZN4gn8FVDnwn99YdRW2x5k0="
+              alt="https://media.istockphoto.com/id/861576608/vector/empty-shopping-bag-icon-online-business-vector-icon-template.jpg?s=612x612&w=0&k=20&c=I7MbHHcjhRH4Dy0NVpf4ZN4gn8FVDnwn99YdRW2x5k0="
+            />
+          )}
+          <Text
+            margin={"auto"}
+            marginBottom="50px"
+            fontSize="16px"
+            textAlign="center"
+          >
             {cartItems.length == 0 && empty && "Please add some Products"}
           </Text>
         </div>

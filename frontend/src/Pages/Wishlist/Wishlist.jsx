@@ -37,7 +37,7 @@ const Wishlist = () => {
   const getData = async () => {
     setEmpty(false);
     return axios
-      .get("https://fashionclub.onrender.com/wishlist/get", {
+      .get("https://jolly-rose-shoe.cyclic.app/wishlist/get", {
         headers: {
           Authorization: `Bearer ${userData.token}`,
           userId: userData.userId,
@@ -58,7 +58,7 @@ const Wishlist = () => {
     onOpen();
     axios
       .post(
-        "https://fashionclub.onrender.com/cart/add",
+        "https://jolly-rose-shoe.cyclic.app/cart/add",
         { productId: id },
         {
           headers: {
@@ -95,7 +95,7 @@ const Wishlist = () => {
   const del_wishlist = (id) => {
     onOpen();
     return axios
-      .delete(`https://fashionclub.onrender.com/wishlist/delete/${id}`, {
+      .delete(`https://jolly-rose-shoe.cyclic.app/wishlist/delete/${id}`, {
         headers: {
           Authorization: `Bearer ${userData.token}`,
         },
