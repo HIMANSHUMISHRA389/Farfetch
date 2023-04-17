@@ -18,7 +18,7 @@ Have a look ⬇️
 - Mongodb
 - Express
 - ChakarUI
-  **Deploying:** Vercel
+- **Deploying:** Netlify
 
 ## Live Link
 
