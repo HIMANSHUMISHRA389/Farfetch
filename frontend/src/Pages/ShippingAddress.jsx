@@ -5,9 +5,7 @@ import { useSelector } from "react-redux";
 import { useDispatch } from "react-redux";
 // import { Address } from "../Redux/Cart/action";
 import { fetchAddress } from "../Redux/Add/action";
-import {
-  useToast,
-} from "@chakra-ui/react";
+import { useToast } from "@chakra-ui/react";
 
 const ShippingAddress = () => {
   const navigate = useNavigate();
@@ -61,7 +59,6 @@ const ShippingAddress = () => {
   //   navigate("/payment");
   // };
 
-
   const options = {
     key: "rzp_test_HJG5Rtuy8Xh2NB",
     amount: total_prize * 100, //  = INR 1
@@ -80,7 +77,7 @@ const ShippingAddress = () => {
       navigate("/");
     },
     prefill: {
-      name: "Mohammad Javed",
+      name: "Manish Verma",
       contact: "9517197442",
       email: "javed233638@demo.com",
     },
@@ -103,7 +100,7 @@ const ShippingAddress = () => {
     document.body.appendChild(script);
   }, []);
   useEffect(() => {
-    // dispatch(fetchAddress());                        
+    // dispatch(fetchAddress());
   }, []);
 
   return (
@@ -237,7 +234,6 @@ const ShippingAddress = () => {
           <button
             onClick={() => openPayModal(options)}
             className={styles.checkoutBtn}
-            
           >
             Save details and Pay
           </button>

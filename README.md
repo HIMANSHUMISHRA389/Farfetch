@@ -4,7 +4,7 @@ Farfrtch is an E-Commerce website anyone can buy products easily from our websit
 
 # Farfetch.com-Clone
 
-Hello Everyone, my name is Raj kumar mahto and I would like to share my one of the fully functional and fully responsive E-Commerce website, this time Masai School give me the Farfetch website to clone as a part of our construct week, and yes, this is a replicate of the Farfetch Website.
+Hello Everyone, my name is Manish Verma and I would like to share my one of the fully functional and fully responsive E-Commerce website, this time Masai School give me the Farfetch website to clone as a part of our construct week, and yes, this is a replicate of the Farfetch Website.
 
 This was a group project executed within a 5 days of span.
 
@@ -30,7 +30,8 @@ Tabs using Chakra UI
 Drawer using Chakra UI
 Drop-down using Chakra UI
 
-Collaborators
+## Collaborators
+
 Manish Verma;
 
 gitHub:- https://github.com/manish9427
@@ -44,5 +45,7 @@ Saurabh Pratap Singh
 gitHub:- https://github.com/SaurabhPratapSingh399
 
 ## Screenshots
+
+![Screenshot (10313)](https://user-images.githubusercontent.com/107556633/232494079-28fab61d-824f-4db2-bb0a-bba102da93e3.png)
 
 ## THANK YOU ❤️
