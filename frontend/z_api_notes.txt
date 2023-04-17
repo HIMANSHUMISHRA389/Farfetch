@@ -1,6 +1,7 @@
 for backend api data
 
 https://fashionclub.onrender.com/
+https://jolly-rose-shoe.cyclic.app/
 
 /user/signup    -POST 
 /user/login    -POST
